@@ -26,7 +26,7 @@ function App() {
     <ThemeProvider theme={theme}>
     <div className="App">
     <Avatar sx={{ width: 56, height: 56, bgcolor: "var(--colors-red-300)"}}>N</Avatar>
-    <Button color="anger" variant="contained">Test</Button>
+    <Button color="anger" variant="contained" sx={{borderRadius: parseInt(getComputedStyle(document.documentElement).getPropertyValue('--radius-large').trim(), 10)}}>Test</Button>
     </div>
     </ThemeProvider>
   );

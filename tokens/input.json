@@ -14,5 +14,17 @@
         "type": "color"
       }
     }
+  },
+  "radius": {
+    "large": {
+      "value": 0,
+      "type": "borderRadius"
+    }
+  },
+  "tokenSetOrder": {
+    "0": {
+      "value": "global",
+      "type": "other"
+    }
   }
 }
